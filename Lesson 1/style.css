@@ -1,0 +1,114 @@
+body{
+	
+	background-image: url(https://images.unsplash.com/photo-1525896544042-354764aa27e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-color: 
+}
+
+h1{
+	font-size: 50px;
+	color: #fff;
+}
+form{
+	margin: 20px auto;
+	width: 320px;
+	font-family: inherit;
+}
+a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid #f5f6fa transparent;
+}
+a hover{
+	background-color: #f5f6fa;
+	color: #fff;
+}
+input{
+	padding: 10px;
+	font-size: inherit;
+}
+input[type="text"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	margin: 2px; 
+	background-color: transparent;
+	border: 2px solid black;
+}
+input[type="email"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	margin: 2px; solid color: #f5f6fa;
+	background-color: transparent;
+	border: 2px solid black;
+	color: black;
+}
+input[type="password"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	margin: 2px; solid color: #f5f6fa;
+	background-color: transparent;
+	border: 2px solid black;
+}
+input[type="radio"]{
+	margin: 0 8px 25px 18px;
+	
+}
+input[type="radio"]: first-child {
+	margin-left: 0;
+}
+ul{
+	
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+	padding-right: 50px;
+}
+ul li a{
+	text-decoration: none;
+	color: #f5f6fa;
+	
+	border: 1px solid #f5f6fa transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #f5f6fa;
+	color: #000;
+}
+::placeholder {
+	color: #f5f6fa;
+}
+p{
+	border-top: 2px;
+	font-size: 20px;
+	color: #fff;
+}
+button{
+	border: 1px solid #000 transparent;
+	background: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	color: #fff; 
+	font-family: "montserrat";
+	font-size: 20px;
+}
+button:hover{
+	color: #000;
+}
+img{
+	width: 150px;
+	margin-bottom: 0;
+}
+.nav{
+	
+	text-align: right;
+	padding-top: 2px;
+}
